@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: 'Montserrat', 'pixellife', sans-serif;
+}
+
+@font-face {
+  font-family: 'pixellife';
+  font-style: normal;
+  font-weight: 400;
+  src: local('pixellife'),
+    url('https://fonts.cdnfonts.com/s/7159/PIXEL-LI.woff') format('woff');
+}
+@font-face {
+  font-family: montserrat;
+  font-style: normal;
+  font-weight: 400;
+  src: local('Montserrat'),
+    url(https://fonts.cdnfonts.com/s/14883/Montserrat-Regular.woff)
+      format('woff');
+}
+
+@font-face {
+  font-family: montserrat;
+  font-style: normal;
+  font-weight: 600;
+  src: local('Montserrat'),
+    url(https://fonts.cdnfonts.com/s/14883/Montserrat-SemiBold.woff)
+      format('woff');
+}
+@font-face {
+  font-family: montserrat;
+  font-style: normal;
+  font-weight: 700;
+  src: local('Montserrat'),
+    url(https://fonts.cdnfonts.com/s/14883/Montserrat-Bold.woff) format('woff');
+}
