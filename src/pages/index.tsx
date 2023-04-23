@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>3Swap Launchpad</title>
+        <title>Frog Coin</title>
       </Head>
       <section className="flex flex-1 h-[730px] bg-[#E9FFFF]">
         <div className="bg-particle-bg bg-cover w-full py-10">
