@@ -4,7 +4,7 @@ import '@/styles/globals.css';
 import type { AppProps } from 'next/app';
 
 const AppContent = ({ children }: any) => (
-  <div className="flex flex-col">
+  <div className="flex flex-col min-h-screen w-screen">
     <Header />
     <div className="w-full">{children}</div>
     <Footer />

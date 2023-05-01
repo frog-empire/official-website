@@ -6,7 +6,7 @@ import React from 'react';
 const HeaderNav = () => {
   return (
     <>
-      <div className="container mx-auto flex items-center justify-between my-3 h-[50px] w-[1000px] lg:w-full">
+      <div className="container mx-auto flex items-center justify-between my-3 h-[50px] w-full">
         <div className="">
           <Link href="/" className="flex items-center gap-2">
             <Image
@@ -15,7 +15,7 @@ const HeaderNav = () => {
               width={60}
               height={60}
             />
-            <h1 className="font-pixel text-[40px] text-[#0F1B0D]">Frog Coin</h1>
+            <h1 className="font-pixel text-[40px] text-[#0F1B0D] capitalize">frog coin</h1>
           </Link>
         </div>
         <nav className="flex gap-4 ">

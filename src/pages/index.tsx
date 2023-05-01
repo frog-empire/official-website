@@ -7,15 +7,15 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Frog Coin</title>
+        <title>Frog Nation</title>
       </Head>
-      <section className="flex flex-1 h-[730px] bg-[#E9FFFF]">
+      <section className="flex flex-1 h-[730px] bg-[#E9FFFF] w-full">
         <div className="bg-particle-bg bg-cover w-full py-10">
-          <div className="container mx-auto w-[1100px]">
-            <h1 className="font-pixel text-[40px] font-[600] ">Features</h1>
-            <div className="flex w-full items-center text-center justify-center gap-8">
-              <div className="w-[25%] flex justify-end">
-                <div className="flex w-[300px] flex-col relative bg-[#7DD6F3] justify-start text-left rounded-md p-5 leading-7 shadow-md">
+          <div className="container mx-auto w-full">
+            <h1 className="font-pixel text-[40px] font-[600] capitalize">features</h1>
+            <div className="flex flex-col lg:flex-row w-full items-center text-center justify-center gap-8">
+              <div className=" w-full lg:w-[25%] flex justify-end">
+                <div className="flex w-full lg:w-[300px] flex-col relative bg-[#7DD6F3] justify-start text-left rounded-md p-5 leading-7 shadow-md">
                   <h1 className="font-pixel text-[40px]">Frog Coin</h1>
                   <p className="font-montserrat text-base leading-7 my-4">
                     How does it work? Its simple! You can earn FrogCoins by
@@ -36,8 +36,8 @@ export default function Home() {
                   />
                 </div>
               </div>
-              <div className="flex flex-col text-center items-center  w-[30%] justify-center gap-10">
-                <div className="flex w-[300px] flex-col relative bg-[#7DD6F3] justify-start text-left rounded-md p-5 leading-7 shadow-md">
+              <div className="flex flex-col text-center items-center w-full lg:w-[30%] justify-center gap-10">
+                <div className="flex w-full lg:w-[300px] flex-col relative bg-[#7DD6F3] justify-start text-left rounded-md p-5 leading-7 shadow-md">
                   <h1 className="font-pixel text-[40px]">BABY Frog Coin</h1>
                   <p className="font-montserrat text-base leading-7 my-4">
                     How does it work? Its simple! You can earn FrogCoins by
@@ -57,7 +57,7 @@ export default function Home() {
                     className="absolute right-2 -top-[80px]"
                   />
                 </div>
-                <div className="flex w-[300px] flex-col relative bg-[#7DD6F3] justify-start text-left rounded-md p-5 leading-7 shadow-md my-10">
+                <div className="flex w-full lg:w-[300px] flex-col relative bg-[#7DD6F3] justify-start text-left rounded-md p-5 leading-7 shadow-md my-10">
                   <h1 className="font-pixel text-[40px]">Frog NFT</h1>
                   <p className="font-montserrat text-base leading-7 my-4">
                     How does it work? Its simple! You can earn FrogCoins by
@@ -78,8 +78,8 @@ export default function Home() {
                   />
                 </div>
               </div>
-              <div className="right w-[25%]">
-                <div className="flex w-[300px] flex-col relative bg-[#7DD6F3] text-left rounded-md p-5 leading-7 shadow-md">
+              <div className="lg:right w-full lg:w-[25%]">
+                <div className="flex w-full lg:w-[300px] flex-col relative bg-[#7DD6F3] text-left rounded-md p-5 leading-7 shadow-md">
                   <h1 className="font-pixel text-[40px]">Baby frog card</h1>
                   <p className="font-montserrat text-base leading-7 my-4">
                     How does it work? Its simple! You can earn FrogCoins by
@@ -106,7 +106,7 @@ export default function Home() {
       </section>
       <section className="flex w-full items-center bg-blue-bg flex-col relative">
         <div className="flex h-screen mb-[165px]">
-          <div className="container p-5 mx-auto w-[1000px] flex gap-6 items-center">
+          <div className="container p-5 mx-auto w-full flex gap-6 items-center">
             <div className="w-[60%]">
               <h1 className="font-pixel text-[60px]">About frog coin</h1>
               <p className="leading-10 font-montserrat text-[16px]">
