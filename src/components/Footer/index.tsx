@@ -18,7 +18,7 @@ const Footer = () => {
             />
             <h1 className="font-pixel text-[50px]">Frog coin</h1>
           </div>
-          <div className="flex gap-4 py-8">
+          <div className="grid grid-cols-1 md:flex gap-4 py-8">
             <Links url={'/'} label="About us" />
             <Links url={'/'} label="Tokenomics" />
             <Links url={'/'} label="Presale" />
@@ -33,20 +33,20 @@ const Footer = () => {
             width={200}
             height={10}
             alt="left"
-            className="w-full"
+            className="w-full hidden md:flex"
           />
-          <div className="flex gap-3 text-white">
+          <div className="flex gap-10 md:gap-3 text-white justify-center text-center items-center w-full p-5">
             <Link href="/">
-              <FiFacebook />
+              <FiFacebook className="text-[50px] md:text-sm" />
             </Link>
             <Link href="/">
-              <FiTwitter />
+              <FiTwitter className="text-[50px] md:text-sm" />
             </Link>
             <Link href="/">
-              <FiLinkedin />
+              <FiLinkedin className="text-[50px] md:text-sm" />
             </Link>
             <Link href="/">
-              <FiInstagram />
+              <FiInstagram className="text-[50px] md:text-sm" />
             </Link>
           </div>
           <Image
@@ -54,7 +54,7 @@ const Footer = () => {
             width={200}
             height={20}
             alt="left"
-            className="w-full"
+            className="w-full hidden md:flex"
           />
         </div>
       </div>

@@ -4,9 +4,9 @@ const Hero = () => {
   return (
     <>
       <div className="container mx-auto">
-        <div className="flex items-center justify-center mt-5">
+        <div className="flex items-center justify-center mt-5 h-[65vh] md:h-fit">
           <div className="max-w-[600px] font-pixel uppercase text-center">
-            <h1 className="text-[60px] ">
+            <h1 className="text-[45px] px-5 md:text-[60px]">
               Welcome to <span className="text-green">FrogCoin,</span> The Hub
               for all Things <span className="text-green">Froggy!</span>
             </h1>
