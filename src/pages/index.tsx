@@ -9,7 +9,7 @@ export default function Home() {
       <Head>
         <title>Frog Nation</title>
       </Head>
-      <section className=" bg-[#E9FFFF] md:h-[730px]s">
+      <section className=" bg-[#E9FFFF] md:h-[730px]s w-full">
         <div className="bg-particle-bg bg-cover w-full px-5 md:px-0 py-10 md:w-full">
           <div className="container  md:mx-auto md:w-[1100px]">
             <h1 className="font-pixel text-[50px] md:text-[40px] mb-10 md:mb-0 font-[600] ">
