@@ -15,7 +15,9 @@ const HeaderNav = () => {
               width={60}
               height={60}
             />
-            <h1 className="font-pixel text-[40px] text-[#0F1B0D]">Frog Coin</h1>
+            <h1 className="font-pixel text-[40px] text-[#0F1B0D] capitalize">
+              frog coin
+            </h1>
           </Link>
         </div>
         <nav className="hidden md:flex gap-4 ">

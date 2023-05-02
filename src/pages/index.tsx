@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Frog Coin</title>
+        <title>Frog Nation</title>
       </Head>
       <section className=" bg-[#E9FFFF] md:h-[730px]s">
         <div className="bg-particle-bg bg-cover w-full px-5 md:px-0 py-10 md:w-full">
