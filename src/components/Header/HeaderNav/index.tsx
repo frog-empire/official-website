@@ -6,7 +6,7 @@ import React from 'react';
 const HeaderNav = () => {
   return (
     <>
-      <div className="flex justify-between items-center container w-[1000px] mx-auto h-[50px] my-3">
+      <div className="flex justify-between items-center container w-full mx-auto h-[50px] my-3">
         <div>
           <Link href="/" className="flex items-center gap-2 px-5 md:px-0">
             <Image
